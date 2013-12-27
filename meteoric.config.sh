@@ -5,13 +5,13 @@ APP_HOST=ec2-54-200-51-184.us-west-2.compute.amazonaws.com
 #ROOT_URL=mycustom.url.com
 
 # Comment this if your host is not an EC2 instance
-EC2_PEM_FILE=~/.ssh/proxynet.pem
+EC2_PEM_FILE=~/.ssh/aws-hello-world.pem
 
 # What's your project's Git repo?
-GIT_URL=git://github.com/wdk122/Microscope.git
+GIT_URL=git://github.com/wdk122/microscope.git
 
 # Does your project use meteorite, or plain meteor?
-METEORITE=true
+METEORITE=false
 
 # If not using Meteorite, you need to specify this
 METEOR_RELEASE=0.7.0.1
@@ -29,7 +29,7 @@ APP_PATH=.
 GIT_BRANCH=master
 
 # Kill the forever and node processes, and deletes the bundle directory and tar file prior to deploying
-FORCE_CLEAN=false
+FORCE_CLEAN=true
 
 # Setup a listening port for your instance / default is 80
 #PORT=8000
